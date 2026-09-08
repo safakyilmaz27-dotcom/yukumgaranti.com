@@ -1,0 +1,35 @@
+<!-- Sosyal paylaşım görseli kaynağı. 1200x630 PNG olarak dışa aktarıp
+     assets/img/og-cover.png adıyla kaydedin (Twitter/X SVG'yi göstermez). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2f4d"/>
+      <stop offset="1" stop-color="#0b1322"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#2bd39a" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#2bd39a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- logo -->
+  <rect x="80" y="76" width="52" height="52" rx="13" fill="#14223a"/>
+  <rect x="94" y="90" width="24" height="24" rx="5" fill="none" stroke="#20c489" stroke-width="4.5"/>
+  <text x="150" y="113" font-family="Saira Condensed, Arial Narrow, sans-serif" font-size="34" font-weight="700" fill="#ffffff">yüküm<tspan fill="#2bd39a">garanti</tspan></text>
+
+  <!-- başlık -->
+  <text x="80" y="300" font-family="Saira Condensed, Arial Narrow, sans-serif" font-size="104" font-weight="700" fill="#ffffff">Yükünüz <tspan fill="#48e0ab">garanti</tspan> altında.</text>
+  <text x="80" y="366" font-family="Inter, Segoe UI, sans-serif" font-size="30" fill="#a9bad2">Volgograd &amp; Bakü koridorları · CMR sigortalı taşıma</text>
+
+  <!-- güzergâh şeridi -->
+  <path d="M80 470 H1120" stroke="#2a3a56" stroke-width="3"/>
+  <circle cx="80" cy="470" r="11" fill="#2bd39a"/>
+  <circle cx="600" cy="470" r="11" fill="#2bd39a"/>
+  <circle cx="1120" cy="470" r="14" fill="#1f9e57"/>
+  <text x="80" y="516" font-family="IBM Plex Mono, monospace" font-size="24" fill="#eaf0f8">VOLGOGRAD</text>
+  <text x="600" y="516" font-family="IBM Plex Mono, monospace" font-size="24" fill="#eaf0f8" text-anchor="middle">BAKÜ</text>
+  <text x="1120" y="516" font-family="IBM Plex Mono, monospace" font-size="24" fill="#eaf0f8" text-anchor="end">TÜRKİYE</text>
+</svg>
